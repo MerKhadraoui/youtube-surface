@@ -9,12 +9,12 @@ body {
 }
 .top-section1 ul {
   color: white;
-  border: 2px black dashed;
+
   height: 5vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 3px red dashed;
+
   flex-direction: row;
   list-style: none;
 }
@@ -30,7 +30,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px red dashed;
 
   list-style: none;
 }
@@ -57,7 +56,6 @@ body {
 }
 
 .tope-menu + i {
-  border: 2px solid black;
   width: 10vh;
   height: 40px;
 }
@@ -90,7 +88,7 @@ body {
 
 .main-menu {
   display: flex;
-  border: 2px solid black;
+
   align-items: center;
   justify-content: center;
 }
@@ -102,7 +100,6 @@ body {
   display: flex;
   justify-content: space-around;
   height: 10rem;
-  border: 2px red dashed;
 
   background-repeat: no-repeat;
 }
