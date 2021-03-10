@@ -24,11 +24,11 @@ body {
   background-size: 50%;
   background-repeat: no-repeat; */
   color: white;
-  border: 2px black dashed;
+
   width: 100vw;
   height: 80vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   border: 3px red dashed;
   flex-direction: row-reverse;
@@ -57,18 +57,40 @@ body {
   width: 10vh;
   height: 40px;
 }
-
-.side-menu {
+.section3 {
   display: flex;
-  border: 2px red dashed;
-  align-items: center;
+  height: 80vw;
+  width: 80vh;
 
   flex-direction: column;
 }
+
 .side-menu {
   display: flex;
+
+  align-self: flex-start;
+  height: 80vh;
+  flex-direction: column;
 }
-.subscribe-box {
-  display: inline;
-  border: 3px red dashed;
+
+.top-box1,
+.subscribe-box,
+.main-menu {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-box1 {
+  display: flex;
+  justify-content: space-around;
+  height: 11rem;
+  border: 2px red dashed;
+  background-image: url(../img/profil-photo.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+ul {
+  list-style: none;
 }
