@@ -60,19 +60,24 @@ body {
 .section3 {
   display: flex;
   height: 80vw;
-  width: 80vh;
+  width: 90vh;
 
   flex-direction: column;
 }
 
 .side-menu {
   display: flex;
-
+  width: 20vw;
   align-self: flex-start;
   height: 80vh;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-
+.side-menu ul {
+  display: flex;
+  flex-direction: column;
+}
 .top-box1,
 .subscribe-box,
 .main-menu {
@@ -81,16 +86,52 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .top-box1 {
+  justify-self: inherit;
   display: flex;
   justify-content: space-around;
-  height: 11rem;
+  height: 20vh;
   border: 2px red dashed;
   background-image: url(../img/profil-photo.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
 }
+.top-box1 ul {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 6rem;
+}
+.top-box3 {
+  display: flex;
+  margin-top: 6rem;
+}
+
 ul {
   list-style: none;
+}
+#midel-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#logo-size {
+  margin-bottom: 6px;
+  height: 3rem;
+  width: 4rem;
+  border-radius: 100%;
+}
+#text1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 23px;
+  letter-spacing: 5px;
+}
+.top-box1 ul li {
+  display: flex;
+  flex-direction: column;
+}
+#text2 {
+  font-family: "Fira Sans", sans-serif;
+
+  font-family: "Great Vibes", cursive;
 }
