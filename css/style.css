@@ -10,7 +10,6 @@ body {
 .top-section1 ul {
   color: white;
   border: 2px black dashed;
-
   height: 5vh;
   display: flex;
   justify-content: space-around;
@@ -20,16 +19,21 @@ body {
   list-style: none;
 }
 .top-section2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.top-section2 .section3 {
+  flex-direction: column;
   color: white;
-
+  width: 80vw;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 3px red dashed;
-  flex-direction: row-reverse;
+
   list-style: none;
 }
-
 #img-profil {
   height: 2rem;
   width: 2rem;
@@ -40,7 +44,12 @@ body {
   height: 4vh;
   width: 10vh;
 }
-
+.top-box1 img {
+  display: flex;
+  width: 80vw;
+  height: 8rem;
+  margin: 0px;
+}
 .top-menu li {
   width: 100vw;
   display: flex;
@@ -52,42 +61,40 @@ body {
   width: 10vh;
   height: 40px;
 }
-.section3 {
-  display: flex;
-  height: 39vw;
-  width: 100vh;
-
-  flex-direction: column;
-}
-
 .side-menu {
   display: flex;
-  width: 20vw;
-  align-self: flex-start;
+  width: 30vw;
   height: 80vh;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .side-menu ul {
+  width: 20rem;
   display: flex;
   flex-direction: column;
+  border-bottom: 2px solid #3b3b3b;
+  padding-bottom: 1rem;
 }
-.top-box1,
-.subscribe-box,
+
+.side-menu li a {
+  display: block;
+  padding-bottom: 0.7rem;
+}
+
 .main-menu {
   display: flex;
   border: 2px solid black;
   align-items: center;
   justify-content: center;
 }
-.top-box1 {
+.top-box1,
+.top-box1 img {
   display: flex;
   justify-content: space-around;
-  height: 20vh;
+  height: 10rem;
   border: 2px red dashed;
-  background-image: url(../img/profil-photo.jpg);
-  background-size: 50%;
+
   background-repeat: no-repeat;
 }
 .top-box1 ul {
@@ -96,45 +103,19 @@ body {
   align-items: baseline;
   width: 6rem;
 }
-.top-box3 {
-  display: flex;
-  margin-top: 6rem;
-}
 
 ul {
   list-style: none;
 }
-#midel-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-#logo-size {
-  margin-bottom: 6px;
-  height: 3rem;
-  width: 4rem;
-  border-radius: 100%;
-}
-#text1 {
-  font-family: "Great Vibes", cursive;
-  font-size: 23px;
-  letter-spacing: 5px;
-}
-.top-box1 ul li {
-  display: flex;
-  flex-direction: column;
-}
-#text2 {
-  font-family: "Fira Sans", sans-serif;
 
-  font-family: "Great Vibes", cursive;
-}
 #smal-photo {
   height: 6rem;
   width: 6rem;
   border-radius: 100%;
 }
 .subscribe-box {
+  width: 79vw;
+
   display: flex;
   justify-content: space-between;
   background-color: #1e1e1e;
@@ -143,11 +124,9 @@ ul {
 .subscribe-box ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
+  align-items: center;
 }
-.subscribe-box ul {
-  display: flex;
-  flex-direction: row;
-}
+
 h1 {
   font-size: 23px;
 }
@@ -155,9 +134,7 @@ h4 {
   font-size: 15px;
   color: #a9a9a9;
 }
-.subscribe-box i {
-  color: #a9a9a9;
-}
+
 #button {
   height: 2.5rem;
   width: 8rem;
@@ -170,21 +147,31 @@ h4 {
   display: inline-block;
   margin: 0.5rem;
   height: 1.5rem;
-
-  font-family: cursive;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 a {
   text-decoration: none;
-  transition: 0.5s;
+
   font-size: 15px;
   color: #a9a9a9;
   background-color: #1e1e1e;
 }
-a:hover {
+/* a:hover {
   border-bottom: 3px solid rgb(202, 201, 201);
   transform: scale(2);
   color: rgb(202, 201, 201);
-}
+} */
 .main-menu {
   background-color: #1e1e1e;
+}
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.videos nav {
+  height: 10rem;
+  width: 10rem;
+  border: 2px black dashed;
 }
