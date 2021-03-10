@@ -65,10 +65,8 @@ body {
 
   flex-direction: column;
 }
-.main-section {
+.side-menu {
   display: flex;
-
-  height: 80vh;
 }
 .subscribe-box {
   display: inline;
