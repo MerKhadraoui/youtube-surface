@@ -15,7 +15,7 @@
   <body>
     <section class="top-section1">
       <div class="tope-menu">
-        <ul><li><i class="fas fa-bars"></i></li> <li></i><img id="youtube-logo" src="./img/youtube-logo-left.jpg" alt="youtube-logo"> </li>
+        <ul><li><button onclick="showMenu()" id="x-menu" ><i class="fas fa-bars"></i></button></li> <li></i><img id="youtube-logo" src="./img/youtube-logo-left.jpg" alt="youtube-logo"> </li>
           <li> <li></li><label for="site-search">
           <input type="search" id="site-search" name="q" placeholder="search"
                  ><button id="search-icone"><i class="fas fa-search"   ></i></i></button> 	&nbsp;<i class="fas fa-microphone"></label></i></li><li></li> <li></li><li></li><li></li>
@@ -26,9 +26,9 @@
           </li><li><img id="img-profil" src="./img/profil-Poto.jpg" alt="profil-photo"></li></ul>
         </div>
     </section>
-    <section class="top-section2">
-      <section class="section3">
-    <div class="top-box1">
+    <section class="top-section2" >
+      <section class="section3" id="middleBox">
+    <div class="top-box1" >
       <img src="./img/main-2profil.png" alt="main-profil">
       </div>
     <div class="subscribe-box">
@@ -132,7 +132,7 @@
       </div>
      </div>
       </section>
-      <section class="side-menu">
+      <section class="side-menu" id="menuBox">
         <nav>
           <ul> 
           <li> <a href="#"><i class="fas fa-home"></i>&nbsp;&nbsp;&nbsp;Home</a></li>
@@ -164,6 +164,21 @@
       </section>
  
   </section>
- 
+  <script>
+    const showMenu = () => {
+      console.log("HI, am function");
+      if (menuBox.style.display == "none") {
+        menuBox.style.display = "block";
+        menuBox.style. width ="30%";
+        middleBox.style.width = "80%";
+
+      } else {
+        menuBox.style.display = "none";
+        menuBox.style. width ="10%";
+        middleBox.style.width = "90%";
+
+      }
+    };
+  </script>
   </body>
 </html>

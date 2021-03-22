@@ -24,6 +24,12 @@ body {
   border-radius: 5%;
   background-color: #191919;
 }
+#x-menu {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10%;
+  background-color: #fcf4f4;
+}
 #search-icone {
   background-color: #343434;
   height: 2rem;
@@ -36,13 +42,13 @@ body {
 .top-section2 .section3 {
   flex-direction: column;
   color: white;
-  width: 80%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   list-style: none;
+}
+.section3 {
+  width: 80vw;
 }
 #img-profil {
   height: 2rem;
@@ -72,7 +78,7 @@ body {
 }
 .side-menu {
   display: flex;
-  width: 30%;
+  width: 30vw;
   height: 80vh;
   flex-direction: column;
   align-items: center;
@@ -127,7 +133,7 @@ ul {
   border-radius: 100%;
 }
 .subscribe-box {
-  width: 100%;
+  width: inherit;
   display: flex;
   justify-content: space-around;
   background-color: #1e1e1e;
