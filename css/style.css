@@ -217,6 +217,7 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-#mx-menu:hover i {
-  transition: 0.5s ease-in;
+#x-menu:hover {
+  transform: scale(1.2);
+  color: rgb(66, 63, 63);
 }
