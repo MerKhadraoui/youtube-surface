@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  background-color: #262626;
+}
+
+.top-section1 ul {
+  color: white;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+
+#site-search {
+  width: 25rem;
+  height: 2rem;
+  border-radius: 5%;
+  background-color: #191919;
+}
+
+#x-menu {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10%;
+  background-color: #fcf4f4;
+}
+
+#search-icone {
+  background-color: #343434;
+  height: 2rem;
+  width: 2rem;
+}
+
+.top-section2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.top-section2 .section3 {
+  width: 100vw;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+#img-profil {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+}
+
+#youtube-logo {
+  height: 4vh;
+  width: 10vh;
+}
+
+.top-box1 img {
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  margin: 0px;
+}
+
+.top-menu li {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.tope-menu + i {
+  width: 10vh;
+  height: 40px;
+}
+
+.side-menu {
+  display: flex;
+  width: 20vw;
+  height: 80vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-menu ul {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #3b3b3b;
+  padding-bottom: 1rem;
+}
+
+.side-menu li a {
+  display: block;
+  margin: 0.7rem;
+}
+
+.side-menu h2 {
+  margin: 5px;
+  color: #a9a9a9;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu li a {
+  display: inline-block;
+}
+
+.top-box1,
+.top-box1 img {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+#smal-photo {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 100%;
+}
+
+.subscribe-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  background-color: #1e1e1e;
+}
+
+.subscribe-box ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+h4 {
+  font-size: 15px;
+  color: #a9a9a9;
+}
+
+#button {
+  height: 2.5rem;
+  width: 8rem;
+  background-color: #db0000;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.main-menu a {
+  color: #a9a9a9;
+}
+
+.main-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.main-menu ul li {
+  margin: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
+a:hover {
+  border-bottom: 3px solid #cac9c9;
+  transform: scale(1);
+  color: #cac9c9;
+}
+
+.main-menu {
+  background-color: #1e1e1e;
+}
+
+.videos,
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #262626;
+}
+
+.videos nav {
+  height: 16rem;
+  width: 16rem;
+}
+
+.videos nav img {
+  width: 100%;
+  height: 60%;
+}
+
+.videos nav h3 {
+  font-size: 15px;
+  color: #a9a9a9;
+}
+
+.videos-list {
+  background-color: #161616;
+}
+
+#subscrib-img img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+}
+
+#subscrib-img {
+  display: flex;
+}
+
+#subscrib-img ul a {
+  display: flex;
+  justify-content: space-around;
+}
+
+#x-menu:hover {
+  transform: scale(1.2);
+  color: #423f3f;
+}
+
+/*# sourceMappingURL=main.css.map */
