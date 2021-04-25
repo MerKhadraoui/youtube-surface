@@ -22,9 +22,9 @@ body {
 
 #site-search {
   width: 25rem;
-  height: 2rem;
+  height: 2.5rem;
   border-radius: 5%;
-  background-color: #191919;
+  background-color: transparent;
 }
 
 #x-menu {
@@ -36,8 +36,9 @@ body {
 
 #search-icone {
   background-color: transparent;
-  height: 2rem;
-  width: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 5%;
 }
 
 .top-section2 {
@@ -176,7 +177,6 @@ h4 {
   width: 8rem;
   background-color: #db0000;
   color: white;
-  border: 1px solid transparent;
 }
 
 .main-menu a {
