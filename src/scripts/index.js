@@ -11,7 +11,9 @@ const theme = () => {
   const sideMenu = document.querySelectorAll(".side-menu nav");
   const search = document.querySelector("#site-search");
   const topIcons = document.querySelector(".top-section1 ul ");
-  const hover = document.querySelectorAll("a");
+  const hover = document.querySelectorAll(".main-menu a");
+  const logoBlack = document.querySelector("#youtube-logo");
+  const logoWhite = document.querySelector("#white-logo");
   if (mood) {
     body.backgroundColor = "#262626";
     topeMenu.style.backgroundColor = "#1e1e1e";
@@ -24,6 +26,8 @@ const theme = () => {
     sideMenu[0].style.backgroundColor = "#262626";
     sideMenu[1].style.backgroundColor = "#262626";
     sideMenu[2].style.backgroundColor = "#262626";
+    logoBlack.style.display = "block";
+    logoWhite.style.display = "none";
     for (let i = 0; i < hover.length; i++) {
       hover[i].style.cssText = "color:#8f8f8f;";
     }
@@ -38,6 +42,8 @@ const theme = () => {
     }
     videos.style.backgroundColor = "#f1f1f1";
     topIcons.style.color = "#494747";
+    logoBlack.style.display = "none";
+    logoWhite.style.display = "block";
     search.style.backgroundColor = "rgb(175, 170, 170)";
     sideMenu[0].style.backgroundColor = "#f1f1f1";
     sideMenu[1].style.backgroundColor = "#f1f1f1";
