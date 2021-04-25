@@ -14,6 +14,7 @@ const theme = () => {
   const hover = document.querySelectorAll(".main-menu a");
   const logoBlack = document.querySelector("#youtube-logo");
   const logoWhite = document.querySelector("#white-logo");
+  const subscrb = document.querySelector("#subs h1");
   if (mood) {
     body.backgroundColor = "#262626";
     topeMenu.style.backgroundColor = "#1e1e1e";
@@ -28,6 +29,7 @@ const theme = () => {
     sideMenu[2].style.backgroundColor = "#262626";
     logoBlack.style.display = "block";
     logoWhite.style.display = "none";
+    subscrb.style.cssText = "color:white;";
     for (let i = 0; i < hover.length; i++) {
       hover[i].style.cssText = "color:#8f8f8f;";
     }
@@ -37,6 +39,7 @@ const theme = () => {
     section2.style.backgroundColor = "#f1f1f1";
     section3.style.backgroundColor = "#f1f1f1";
     section4.style.backgroundColor = "#f1f1f1";
+    subscrb.style.cssText = "color:rgb(66, 63, 63);";
     for (let i = 0; i < videosH2.length; i++) {
       videosH2[i].style.cssText = "color:rgb(66, 63, 63);";
     }
