@@ -11,6 +11,7 @@ body {
 
 .top-section1 ul {
   color: white;
+  width: 100vw;
   height: 5vh;
   display: flex;
   justify-content: space-around;
@@ -61,15 +62,23 @@ body {
 }
 
 #youtube-logo {
+  display: block;
   height: 4vh;
   width: 10vh;
 }
 
+#white-logo {
+  height: 3vh;
+  width: 10vh;
+  display: none;
+}
+
 .top-box1 img {
+  background-color: transparent;
   display: flex;
   width: 100%;
-  height: 8rem;
-  margin: 0px;
+  height: 100%;
+  border-radius: 3%;
 }
 
 .top-menu li {
@@ -117,7 +126,6 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  border-bottom: 1.5px solid #a8a4a4;
 }
 
 .main-menu li a {
@@ -146,7 +154,6 @@ ul {
   justify-content: space-between;
   margin: 2rem;
   background-color: #1e1e1e;
-  border-bottom: 1.5px solid #a8a4a4;
 }
 
 .subscribe-box ul {
@@ -177,18 +184,15 @@ h4 {
 }
 
 .main-menu ul {
-  width: 100%;
-  height: 3rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background-color: transparent;
 }
 
 .main-menu ul li {
-  width: 3rem;
+  margin: 1.6rem;
 }
 
 a {
@@ -198,7 +202,7 @@ a {
 }
 
 a:hover {
-  border-bottom: 3px solid #cac9c9;
+  border-bottom: 2px solid #cac9c9;
   transform: scale(1);
   color: #cac9c9;
 }
