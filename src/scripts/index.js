@@ -33,6 +33,9 @@ const theme = () => {
     for (let i = 0; i < hover.length; i++) {
       hover[i].style.cssText = "color:#8f8f8f;";
     }
+    for (let i = 0; i < videosH2.length; i++) {
+      videosH2[i].style.cssText = "color: #cfcaca;";
+    }
   } else {
     body.backgroundColor = "white";
     topeMenu.style.backgroundColor = "white";
